@@ -6,7 +6,7 @@ inquirer.prompt([
     {
         type: "input",
         message: "What is the title of your project?",
-        name: "title"
+        name: "Title"
     },
     {
         type: "input",
@@ -35,22 +35,19 @@ inquirer.prompt([
         name: "usage"
     },
     {
-        type: "list",
+        type: "input",
         message: "What credits do you want to include?",
         name: "credits",
-        choices: []
     },
     {
-        type: "list",
+        type: "input",
         message: "What features do you want to include?",
         name: "features",
-        choices: []
     },
     {
-        type: "list",
+        type: "input",
         message: "Who contributed to your project?",
         name: "contributors",
-        choices: []
     },
     {
         type: "input",
@@ -60,7 +57,7 @@ inquirer.prompt([
 
 ]).then(response => {
     const content = `
-# ${response.title}
+# ${response.Title}
 
 ## ${response.description}
 
