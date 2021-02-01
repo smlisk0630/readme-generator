@@ -54,6 +54,12 @@ inquirer.prompt([
         message: "How can users test your project?",
         name: "tests",
     },
+    {
+        type: "list",
+        message: "Which type of license should your project have?",
+        name: "licenses",
+        choices: ["Apache License 2.0", "ISC License", "MIT License", "GNU GPLv3"]
+    },
 
 ]).then(response => {
     const content = `
@@ -76,6 +82,8 @@ inquirer.prompt([
 ## ${response.contributors}
 
 ## ${response.tests}
+
+## ${response.licenses}
     
     `;
     // creates README file
