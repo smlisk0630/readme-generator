@@ -19,13 +19,13 @@ inquirer.prompt([
         radio: true,
         name: "contents",
         choices: [
-            "Installation",
-            "User Stories",
-            "Usage",
-            "Credits",
-            "Features",
-            "Contributing",
-            "Tests"]
+            "-Installation",
+            "-User Stories",
+            "-Usage",
+            "-Credits",
+            "-Features",
+            "-Contributing",
+            "-Tests"]
     },
     {
         type: "input",

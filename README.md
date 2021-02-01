@@ -11,16 +11,16 @@ This repo houses a command-line application that dynamically generates a profess
 This application can be found at https://smlisk0630.github.io/readme-generator/.
 
 ## Table of Contents
-Installation,User Stories,Usage,Credits,Features,Contributing,Tests
+-Installation,-User Stories,-Usage,-Credits
 
 ## Installation
-To install, download the source code.
+To install run -npm install.
 
 ## User Stories
 [screenshots]
 
 ## Usage
-Use to generate professional-quality README files.
+Use to generate a professional-quality README file.
 
 ## Credits
 UNC Coding Bootcamp
