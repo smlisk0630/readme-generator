@@ -65,25 +65,38 @@ inquirer.prompt([
     const content = `
 # ${response.Title}
 
-## ${response.description}
+## Description
+${response.description}
 
-## ${response.contents}
+## Link to Deployed Application
+This application can be found at https://smlisk0630.github.io/readme-generator/.
 
-## ${response.install}
+## Table of Contents
+${response.contents}
 
-## ${response.stories}
+## Installation
+${response.install}
 
-## ${response.usage}
+## User Stories
+${response.stories}
 
-## ${response.credits}
+## Usage
+${response.usage}
 
-## ${response.features}
+## Credits
+${response.credits}
 
-## ${response.contributors}
+## Features
+${response.features}
 
-## ${response.tests}
+## Contributors
+${response.contributors}
 
-## ${response.licenses}
+## Testing
+${response.tests}
+
+## License
+${response.licenses}
     
     `;
     // creates README file

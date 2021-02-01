@@ -1,24 +1,37 @@
 
 # Professional README Generator
 
-## This repo houses a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+## Description
+This repo houses a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-## Installation,User Stories,Usage,Credits
+## Link to Deployed Application
+This application can be found at https://smlisk0630.github.io/readme-generator/.
 
-## Download
+## Table of Contents
+Installation,User Stories,Usage,Credits
 
-## Inserted
+## Installation
+Via download
 
-## Generate README files
+## User Stories
+[screenshots]
 
-## UNC Coding Bootcamp
+## Usage
+To generate README files.
 
-## None
+## Credits
+UNC Coding Bootcamp
 
-## No one
+## Features
+None
 
-## I don't know yet
+## Contributors
+N/A
 
-## MIT License
+## Testing
+N/A
+
+## License
+MIT License
     
     
