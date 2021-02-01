@@ -64,6 +64,9 @@ inquirer.prompt([
 ]).then(response => {
     const content = `
 # ${response.Title}
+![Issues](https://img.shields.io/github/issues/smlisk0630/weather-dashboard)
+![Forks](https://img.shields.io/github/forks/smlisk0630/weather-dashboard)
+![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
 
 ## Description
 ${response.description}
