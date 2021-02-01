@@ -16,6 +16,7 @@ inquirer.prompt([
     {
         type: "checkbox",
         message: "What is included in your table of contents?",
+        radio: true,
         name: "contents",
         choices: ["Installation", "User Stories", "Usage", "Credits", "Features", "Contributing", "Tests"]
     },

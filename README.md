@@ -26,7 +26,7 @@ Use to generate professional-quality README files.
 UNC Coding Bootcamp
 
 ## Features
-None
+N/A
 
 ## Contributors
 N/A
