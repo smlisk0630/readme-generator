@@ -119,14 +119,26 @@ ${response.licenses}
     // Generates badge for license
     switch (response.licenses) {
         case "Apache License 2.0":
-            return `${![response.licenses[0]]("https://img.shields.io/badge/${response.licenses[0]}-orange")}`;
+            return '[![License: Apache License 2.0]("https://img.shields.io/badge/license-Apache-brightgreen.svg")]';
         case "ISC License":
-            return `${![response.licenses[1]]("https://img.shields.io/badge/${response.licenses[1]}-orange")}`;
+            return '[![License: ISC License]("https://img.shields.io/badge/License-ISC-blueviolet.svg")]';
         case "MIT License":
-            return `${![response.licenses[2]]("https://img.shields.io/badge/${response.licenses[2]}-orange")}`;
+            return '[![License: MIT License]("https://img.shields.io/badge/License-MIT-blue.svg")]';
         case "GNU GPLv3":
-            return `${![response.licenses[3]]("https://img.shields.io/badge/${response.licenses[3]}-orange")}`;
+            return '[![License: GNU GPLv3]("https://img.shields.io/badge/License-GNU-ff69b4.svg")]';
         default:
             console.log("No license found");
     }
+
+    process.on('unhandledRejection', function(err) {
+        console.log(err);
+    });
+
+    (async function() {
+        try {
+            await response.licenses;
+        } catch(err) {
+            console.log(err);
+        }
+    })();
 });
