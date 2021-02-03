@@ -101,7 +101,9 @@ ${response.description}
 ## Link to Deployed Application
 This application can be found at https://smlisk0630.github.io/readme-generator/.
 ## Table of Contents
-${response.contents}
+(#${response.contents[0]}\n
+    ${response.contents[1]}
+    )
 ## Installation
 ${response.install}
 ## User Stories
@@ -119,10 +121,9 @@ ${response.tests}
 ## License
 ${response.license}
 ## Questions
-${response.questions}
-https://${response.questions}.github.io
-${response.contact}
-To contact me, use this email address.
+GitHub Username: ${response.questions}\n
+GitHub Profile: https://${response.questions}.github.io
+\nTo get in touch, use this email address: ${response.contact}
 `;
 
         // creates README file
