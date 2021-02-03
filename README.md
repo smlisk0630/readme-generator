@@ -9,29 +9,32 @@ This repo houses a command-line application that dynamically generates a profess
 ## Link to Deployed Application
 This application can be found at https://smlisk0630.github.io/readme-generator/.
 ## Table of Contents
-(#Installation
-
-    User Stories
-    )
-## Installation
-To install, use npm i.
-## User Stories
+[Installation](https://smlisk0630.github.io/readme-generator#installation)  
+[User Stories](https://smlisk0630.github.io/readme-generator#stories)  
+[Usage](https://smlisk0630.github.io/readme-generator#usage)  
+[Credits](https://smlisk0630.github.io/readme-generator#credits)  
+[Features](https://smlisk0630.github.io/readme-generator#features)    
+[Contributors](https://smlisk0630.github.io/readme-generator#contributors)  
+[Tests](https://smlisk0630.github.io/readme-generator#tests)  
+[License](https://smlisk0630.github.io/readme-generator#license)  
+[Questions](https://smlisk0630.github.io/readme-generator#questions)
+# Installation
+Run npm install
+# User Stories
 [screenshots]
-## Usage
+# Usage
 To generate a professional-quality README file.
-## Credits
+# Credits
 UNC Coding Bootcamp
-## Features
+# Features
 N/A
-## Contributors
+# Contributors
 N/A
-## Testing
+# Testing
 N/A
-## License
+# License
 MIT License
-## Questions
-GitHub Username: smlisk0630
-
-GitHub Profile: https://smlisk0630.github.io
-
+# Questions
+Your GitHub username is: smlisk0630  
+Your GitHub profile is: https://smlisk0630.github.io  
 To get in touch, use this email address: jdoe@example.com

@@ -93,37 +93,43 @@ inquirer
         const content = `
 # ${response.Title}
 ${renderLicense(response.license)}
-![Issues](https://img.shields.io/github/issues/smlisk0630/weather-dashboard)
-![Forks](https://img.shields.io/github/forks/smlisk0630/weather-dashboard)
+![Issues](https://img.shields.io/github/issues/smlisk0630/readme-generator)
+![Forks](https://img.shields.io/github/forks/smlisk0630/readme-generator)
 ![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
 ## Description
 ${response.description}
 ## Link to Deployed Application
 This application can be found at https://smlisk0630.github.io/readme-generator/.
 ## Table of Contents
-(#${response.contents[0]}\n
-    ${response.contents[1]}
-    )
-## Installation
+[Installation](https://smlisk0630.github.io/readme-generator#installation)  
+[User Stories](https://smlisk0630.github.io/readme-generator#stories)  
+[Usage](https://smlisk0630.github.io/readme-generator#usage)  
+[Credits](https://smlisk0630.github.io/readme-generator#credits)  
+[Features](https://smlisk0630.github.io/readme-generator#features)    
+[Contributors](https://smlisk0630.github.io/readme-generator#contributors)  
+[Tests](https://smlisk0630.github.io/readme-generator#tests)  
+[License](https://smlisk0630.github.io/readme-generator#license)  
+[Questions](https://smlisk0630.github.io/readme-generator#questions)
+# Installation
 ${response.install}
-## User Stories
+# User Stories
 ${response.stories}
-## Usage
+# Usage
 ${response.usage}
-## Credits
+# Credits
 ${response.credits}
-## Features
+# Features
 ${response.features}
-## Contributors
+# Contributors
 ${response.contributors}
-## Testing
+# Testing
 ${response.tests}
-## License
+# License
 ${response.license}
-## Questions
-GitHub Username: ${response.questions}\n
-GitHub Profile: https://${response.questions}.github.io
-\nTo get in touch, use this email address: ${response.contact}
+# Questions
+Your GitHub username is: ${response.questions}  
+Your GitHub profile is: https://${response.questions}.github.io  
+To get in touch, use this email address: ${response.contact}
 `;
 
         // creates README file
