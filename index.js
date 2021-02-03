@@ -77,11 +77,22 @@ inquirer
             message: 'Which type of license should your project have?',
             name: 'license',
             choices: ['Apache License 2.0', 'ISC License', 'MIT License', 'GNU GPLv3']
+        },
+        {
+            type: 'input',
+            message: 'What is your GitHub username?',
+            name: 'questions'
+        },
+        {
+            type: 'input',
+            message: 'What is your email address?',
+            name: 'contact'
         }
     ])
     .then(response => {
         const content = `
 # ${response.Title}
+${renderLicense(response.license)}
 ![Issues](https://img.shields.io/github/issues/smlisk0630/weather-dashboard)
 ![Forks](https://img.shields.io/github/forks/smlisk0630/weather-dashboard)
 ![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
@@ -106,7 +117,13 @@ ${response.contributors}
 ## Testing
 ${response.tests}
 ## License
-${renderLicense(response.license)}`;
+${response.license}
+## Questions
+${response.questions}
+https://${response.questions}.github.io
+${response.contact}
+To contact me, use this email address.
+`;
 
         // creates README file
         fs.writeFile('README.md', content, err => {
