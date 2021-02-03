@@ -5,22 +5,22 @@
 ![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
 
 ## Description
-This repo houses a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+To generate a professional-quality README file.
 
 ## Link to Deployed Application
 This application can be found at https://smlisk0630.github.io/readme-generator/.
 
 ## Table of Contents
--Installation,-User Stories,-Usage,-Credits
+Installation,User Stories,Usage,Credits
 
 ## Installation
-To install run -npm install.
+To install, run npm install
 
 ## User Stories
 [screenshots]
 
 ## Usage
-Use to generate a professional-quality README file.
+To generate a professional-quality README file.
 
 ## Credits
 UNC Coding Bootcamp
@@ -36,5 +36,4 @@ N/A
 
 ## License
 MIT License
-    
     

@@ -2,6 +2,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const CheckboxPrompt = require("inquirer/lib/prompts/checkbox");
 
+// Inputs for the command line
 inquirer.prompt([
     {
         type: "input",
@@ -16,16 +17,15 @@ inquirer.prompt([
     {
         type: "checkbox",
         message: "What is included in your table of contents?",
-        radio: true,
         name: "contents",
         choices: [
-            "-Installation",
-            "-User Stories",
-            "-Usage",
-            "-Credits",
-            "-Features",
-            "-Contributing",
-            "-Tests"]
+            "Installation",
+            "User Stories",
+            "Usage",
+            "Credits",
+            "Features",
+            "Contributing",
+            "Tests"]
     },
     {
         type: "input",
@@ -108,11 +108,25 @@ ${response.tests}
 
 ## License
 ${response.licenses}
-    
     `;
+
     // creates README file
     fs.writeFile("README.md", content, err => {
-        if(err) console.log(err);
+        if (err) console.log(err);
         else console.log("success!");
     });
+
+    // Generates badge for license
+    switch (response.licenses) {
+        case "Apache License 2.0":
+            return `${![response.licenses[0]]("https://img.shields.io/badge/${response.licenses[0]}-orange")}`;
+        case "ISC License":
+            return `${![response.licenses[1]]("https://img.shields.io/badge/${response.licenses[1]}-orange")}`;
+        case "MIT License":
+            return `${![response.licenses[2]]("https://img.shields.io/badge/${response.licenses[2]}-orange")}`;
+        case "GNU GPLv3":
+            return `${![response.licenses[3]]("https://img.shields.io/badge/${response.licenses[3]}-orange")}`;
+        default:
+            console.log("No license found");
+    }
 });
