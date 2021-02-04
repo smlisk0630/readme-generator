@@ -20,7 +20,7 @@ This application can be found at https://smlisk0630.github.io/readme-generator/.
 [Questions](https://smlisk0630.github.io/readme-generator#questions)
 # Installation
 ```
-npm install
+npm install readme-generator
 ```
 # User Stories
 ![Readme-Generator GIF](assets/README-Generator.gif)
