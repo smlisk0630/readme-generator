@@ -3,7 +3,7 @@
 ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Issues](https://img.shields.io/github/issues/smlisk0630/readme-generator)
 ![Forks](https://img.shields.io/github/forks/smlisk0630/readme-generator)
-![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
+![GitHub Top Language](https://img.shields.io/github/languages/top/smlisk0630/readme-generator)
 ## Description
 This repo houses a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 ## Link to Deployed Application
