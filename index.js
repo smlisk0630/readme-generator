@@ -111,7 +111,9 @@ This application can be found at https://smlisk0630.github.io/readme-generator/.
 [License](https://smlisk0630.github.io/readme-generator#license)  
 [Questions](https://smlisk0630.github.io/readme-generator#questions)
 # Installation
+\`\`\`
 ${response.install}
+\`\`\`
 # User Stories
 ${response.stories}
 # Usage

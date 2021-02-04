@@ -1,8 +1,8 @@
 
 # Professional README Generator
 ![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Issues](https://img.shields.io/github/issues/smlisk0630/weather-dashboard)
-![Forks](https://img.shields.io/github/forks/smlisk0630/weather-dashboard)
+![Issues](https://img.shields.io/github/issues/smlisk0630/readme-generator)
+![Forks](https://img.shields.io/github/forks/smlisk0630/readme-generator)
 ![JavaScript 47 Percent](https://img.shields.io/badge/javascript-100%25-yellow)
 ## Description
 This repo houses a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
@@ -19,11 +19,13 @@ This application can be found at https://smlisk0630.github.io/readme-generator/.
 [License](https://smlisk0630.github.io/readme-generator#license)  
 [Questions](https://smlisk0630.github.io/readme-generator#questions)
 # Installation
-Run npm install
+```
+npm install
+```
 # User Stories
 [screenshots]
 # Usage
-To generate a professional-quality README file.
+To generate a professional README file.
 # Credits
 UNC Coding Bootcamp
 # Features
