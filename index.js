@@ -115,7 +115,7 @@ This application can be found at https://smlisk0630.github.io/readme-generator/.
 ${response.install}
 \`\`\`
 # User Stories
-${response.stories}
+![Readme-Generator GIF](assets/README-Generator.gif)
 # Usage
 ${response.usage}
 # Credits
