@@ -23,7 +23,7 @@ This application can be found at https://smlisk0630.github.io/readme-generator/.
 npm install
 ```
 # User Stories
-[screenshots]
+![Readme-Generator GIF](assets/README-Generator.gif)
 # Usage
 To generate a professional README file.
 # Credits
